@@ -1,0 +1,8 @@
+.hover_border:hover{
+    -fx-border-color:  #1976D2;
+    -fx-border-width: 0px 0px 0px 2px;
+    -fx-background-color: #BBDEFb;
+}
+.hover_fade:hover{
+    -fx-background-color: e2e2e2;
+}

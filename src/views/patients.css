@@ -1,0 +1,63 @@
+.table-view{
+    -fx-background-color: white;
+    -fx-background-radius: 0 0 30 30;
+}
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+.table-view .column-header-background{
+    -fx-background-color: white;
+    -fx-background-insets: 0 0 10 0;
+    -fx-padding: 0 0 10 0;
+ }
+
+ .table-cell{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+     -fx-border-width: 0 0 10 0;
+ }
+
+ .table-view .column-header, .table-view .filler{
+     -fx-background-color: transparent;
+     -fx-border-width: 0 0 10 0;
+     -fx-size: 40;
+  }
+  .linear-grad{
+    -fx-background-color: linear-gradient(to bottom left, #371897, #2D75E8);
+  }
+
+  .table-view .column-header .label{
+    -fx-text-fill: #1976d2;
+    -fx-font-family: fantasy;
+  }
+  .button1{
+    -fx-background-color: #431FA0;
+    -fx-text-fill: #ffffff;
+  }
+  .button1:hover{
+    -fx-text-fill: #6F4CBB;
+  }
+  .button1:pressed{
+    -fx-text-fill: #371897;
+  }
+  .button1:active{
+    -fx-text-fill: #80AFF5;
+  }
+
+  .button2{
+    -fx-background-color: #D5CBEB;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #6F4CBB;
+  }
+  .button2:hover{
+      -fx-background-color: #E4EEFD;
+      -fx-text-fill: #371897;
+    }
+
+   .table-view:row-selection .table-row-cell:selected .table-cell{
+      -fx-background-color: #BBDEFb;
+      -fx-text-fill:white;
+      -fx-border-color: #BBDEFb;
+    }

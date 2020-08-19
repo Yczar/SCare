@@ -1,0 +1,26 @@
+.jfx-tab-pane .control-buttons-tab{
+    -fx-background-color: RED;
+}
+.jfx-tab-pane .control-buttons-tab .tab-down-button{
+    -fx-background-color: Black;
+}
+.jfx-tab-pane .control-buttons-tab .jfx-rippler{
+    -jfx-rippler-fill: black;
+}
+
+.tab{
+    -fx-background-color: #0000FF;
+    -fx-text-fill: black;
+}
+
+.tab .tab-label{
+    -fx-font-size: 10px;
+    -fx-font-family: Quicksands;
+    -fx-font-weight: bold;
+    -fx-text-fill: white
+    ;
+}
+
+.tab-header-background{
+    -fx-background-color: #0000FF;
+}

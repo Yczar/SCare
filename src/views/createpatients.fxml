@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CreatePatientsController">
+   <children>
+      <VBox layoutX="158.0" layoutY="44.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Register Patients">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Helvetica Bold" size="24.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <JFXTextField fx:id="fname" labelFloat="true" promptText="First Name" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="mname" labelFloat="true" layoutX="10.0" layoutY="10.0" promptText="Middle Name" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="lname" labelFloat="true" layoutX="161.0" layoutY="10.0" promptText="Last Name" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <JFXTextField fx:id="idnum" labelFloat="true" promptText="ID Number" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" right="20.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="scnum" labelFloat="true" layoutX="235.0" layoutY="23.0" promptText="Scare Number" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="20.0" right="10.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <DatePicker fx:id="dob" promptText="Date of birth" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" right="20.0" />
+                     </HBox.margin>
+                  </DatePicker>
+                  <JFXTextField fx:id="gender" labelFloat="true" promptText="Gender" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="mstatus" labelFloat="true" promptText="Marital Status" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="20.0" right="10.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="210.0" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <JFXTextField fx:id="address" labelFloat="true" promptText="Address" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" right="20.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="citytown" labelFloat="true" layoutX="235.0" layoutY="25.0" promptText="City/Town" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="state" labelFloat="true" layoutX="310.0" layoutY="25.0" promptText="State" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="20.0" right="10.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="310.0" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <JFXTextField fx:id="mobilenumber" labelFloat="true" promptText="Mobile Number" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <padding>
+                        <Insets left="10.0" right="20.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="mobilenumber2" labelFloat="true" layoutX="235.0" layoutY="25.0" promptText="Mobile Number2(Optional)" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <padding>
+                        <Insets left="20.0" right="20.0" />
+                     </padding>
+                  </JFXTextField>
+                  <JFXTextField fx:id="poc" labelFloat="true" layoutX="310.0" layoutY="25.0" promptText="Person Of Contact" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <padding>
+                        <Insets left="20.0" right="10.0" />
+                     </padding>
+                  </JFXTextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="330.0" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <JFXTextField fx:id="otherinfo" promptText="Other Information/Notes" style="-fx-font-family: Helvetical;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </HBox.margin>
+                  </JFXTextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="333.0" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <JFXButton fx:id="clear" buttonType="RAISED" onAction="#onAction" ripplerFill="#9b09b9" style="-fx-background-color: #0000ff;" text="Clear" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Helvetica Bold" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+                     </padding>
+                  </JFXButton>
+                  <HBox prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                  <JFXButton fx:id="save" buttonType="RAISED" layoutX="20.0" layoutY="21.0" onAction="#onAction" style="-fx-background-color: #0000ff;" text="Save" textFill="WHITE">
+                     <font>
+                        <Font name="Helvetica Bold" size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
